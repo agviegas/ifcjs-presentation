@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7;
+    text-decoration: none; 
+    cursor: pointer;
+}
+
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row {
+    width: auto;
+    margin: 2rem 0;
+    /* border: 1px solid blue; */
+}
+
+.flex-item {
+    background-color: tomato;
+    padding: 12px;
+    border-radius: 1rem;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
